@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import ItemListContainer from './components/Text/ItemListContainer';
-import Cont from './components/BtnCont';
+import Cont from './components/ItemCount';
 
 function App() {
 
