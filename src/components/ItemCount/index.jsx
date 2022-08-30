@@ -6,9 +6,10 @@ const Cont = () => {
 
     return(
         <div class="qty mt-5">
-            <span class="minus bg-dark" id="restar">-</span>
-            <span>{carrito.length}</span>
-            <span >+</span>
+            
+            <h5 class="card-title">{carrito.length}</h5>
+            <button class="btn btn-dark btn-lg">-</button>
+            <button class="btn btn-dark btn-lg">+</button>
             <br />
             <button onClick={() => {
                 setCarrito([...carrito, "Zapatillas"]);
