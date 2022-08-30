@@ -10,8 +10,8 @@ const Cont = () => {
             <h5 class="card-title">{carrito.length}</h5>
             <button class="btn btn-dark btn-lg">-</button>
             <button class="btn btn-dark btn-lg">+</button>
-            <br />
-            <button onClick={() => {
+            <br /><hr />
+            <button class="btn btn-dark btn-lg" onClick={() => {
                 setCarrito([...carrito, "Zapatillas"]);
             }}>
                 Agregar al carrito

@@ -10,10 +10,10 @@ function App() {
     <div className="App">
 
       <NavBar />
-      <ItemListContainer msj="COMPRE Y VENDA CON CONFIANZA"/>
-
+      <Cont />
+      
       <header className="App-header">
-        <Cont />
+        <ItemListContainer msj="COMPRE Y VENDA CON CONFIANZA"/>
       </header>
     </div>
   );
